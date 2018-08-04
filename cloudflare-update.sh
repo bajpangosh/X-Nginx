@@ -45,4 +45,4 @@ echo "" >> $CF_NGINX_CONFIG
 rm $CF_TEMP_IP4 $CF_TEMP_IP6
 
 # Reload the nginx config.
-service nginx reload
+sudo service nginx reload
